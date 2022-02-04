@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #F7FAFC;
+}
+
+.principal {
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.conteudo1 {
+    width: 50%;
+    height: 135vh;
+    background: #f0f5f7;
+}
+
+.desafio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 21%;
+}
+
+.avatares {
+    margin-top: 30px;
+}
+
+.secao1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.secao1 img {
+  width: 17%;
+}
+
+.secao2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+.secao2 img {
+    width: 17%;
+  }
+
+  .conteudo2 {
+      display: flex;
+
+  }
+
+  .login {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 40%;
+      margin-left: -45%;
+      gap: 10px;
+
+  }
+
+  .login h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    width: 100%;
+  }
+
+  .login h3 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1A202C;
+    width: 100%;
+  }
+
+  .bem-vindo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .formulario {
+      margin-top: 30px;
+  }
+
+  .formulario input {
+      width: 195%;
+      height: 50%;
+      border-radius: 5px;
+      border: solid rgb(211, 208, 209) 1px;
+      margin-top: 10px;
+      
+  }
+
+  label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #1A202C;
+  }
+  
+  .email {
+      margin-bottom: 10px;
+      
+  }
+
+  ::placeholder {
+      padding-left: 10px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #111818;
+  }
+
+  .lembre {
+      width: 100%;
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+  }
+
+  strong {
+      color: rgb(75, 104, 235);
+      margin-left: 60px;
+      font-size: 0.9rem;
+  }
+
+  .entrar {
+      width: 100%;
+      height: 7%;
+      border-radius: 5px;
+      border: none;
+      background: #2cce47;
+      margin-top: 13px;
+  }
+
+  .entrar::placeholder {
+      color: white;
+      font-size: 1.2rem;
+      padding-left: 42%;
+  }
+
+  .google {
+    width: 100%;
+    height: 7%;
+    border-radius: 5px;
+    border: none;
+    background: #1A202C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .cadastro {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;margin-left: 15%;
+      margin-top: 13vh;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      
+  }
+
+  span {
+      color: #2b6cb0;
+  }
+
+  @media(max-width: 1200px) {
+
+     .principal {
+        width: 100%;
+        height: 170vh;
+     }
+
+     .conteudo2 {
+         margin-top: -50px;
+     }
+  }
+
+  @media(max-width: 935px) {
+
+    .conteudo1 {
+       display: none;
+    }
+
+    .conteudo2 {
+        margin-left: 50%;
+    }
+       
+    }
+
+    @media(max-width: 545px) {
+
+        .conteudo2 {
+           margin-left: 45%;
+        }
+        }
+
+        @media(max-width: 440px) {
+
+            .conteudo2 {
+               margin-left: 40%;
+            }
+
+            .formulario {
+                width: 55%;
+            }
+
+            .entrar {
+                width: 90%;
+                
+            }
+
+            .google {
+                width: 90%;
+                font-size: 0.6rem;
+            }
+
+            .login h1 {
+                font-size: 1.4rem;
+            }
+
+            .cadastro {
+                font-size: 0.8rem;
+            
+            }
+
+            .lembre {
+                font-size: 0.8rem;
+            }
+
+            .lembre strong {
+                font-size: 0.8rem;
+                margin-left: -1%;
+            }
+
+            .cadastro {
+                margin-left: 8%;
+            }
+
+            .entrar::placeholder {
+                font-size: 0.9rem;
+            }
+
+            .principal {
+                width: 100%;
+                height: 140vh;
+             }
+
+            
+        }
+
+        @media(max-width: 350px) {
+
+            .conteudo2 {
+               margin-left: 48%;
+            }
+
+            .formulario {
+                width: 60%;
+                height: 10%;
+            }
+
+            .entrar {
+                width: 80%;
+                height: 5%;
+            }
+
+            .entrar::placeholder {
+                font-size: 0.8rem;
+            }
+
+            .google {
+                width: 90%;
+                height: 5%;
+                font-size: 0.6rem;
+            }
+
+            .google img {
+                width: 10px;
+            }
+
+            .login h1 {
+                font-size: 1.1rem;
+            }
+
+            .login h3 {
+                font-size: 1rem;
+            }
+
+            .cadastro {
+                font-size: 0.9rem;
+            }
+
+            .lembre {
+                font-size: 0.5rem;
+            }
+
+            .lembre strong {
+                font-size: 0.5rem;
+                margin-left: -5%;
+            }
+
+            .cadastro {
+                margin-left: 8%;
+                font-size: 0.7rem;
+            }
+
+            .principal {
+                width: 100%;
+                height: 110vh;
+             }
+            
+        }
+
+        @media(max-width: 350px) {
+
+            .conteudo2 {
+               margin-left: 40%;
+            }
+
+            .formulario {
+                width: 55%;
+                height: 15%;
+            }
+
+            .entrar {
+                width: 95%;
+                
+            }
+
+            .google {
+                width: 95%;
+                font-size: 0.6rem;
+            }
+
+            .login h1 {
+                font-size: 1.1rem;
+            }
+
+            .cadastro {
+                font-size: 0.7rem;
+            
+            }
+
+            .lembre {
+                font-size: 0.6rem;
+                margin-left: 2%;
+               
+            }
+
+            .lembre strong {
+                font-size: 0.6rem;
+            }
+
+            .cadastro {
+                margin-left: 8%;
+            }
+
+            .entrar::placeholder {
+                font-size: 0.9rem;
+            }
+
+            .principal {
+                width: 100%;
+                height: 110vh;
+             }   
+             
+        }
+
+
+        
+      
+
+ 
+
+
+  
